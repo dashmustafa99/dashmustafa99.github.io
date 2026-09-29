@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Penny Pop</title>
+<meta name="description" content="Penny Pop: money, explained simply. Short animated explainers about personal finance.">
+<link rel="icon" href="logo.png">
+<style>
+  :root { --sky:#79C6F9; --ink:#1F2A37; --cream:#FFFDF5; --sun:#FFD23F; --slate:#3B4A5C; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--sky); color: var(--ink); }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display:flex; align-items:center; gap:20px; }
+  header img { width:96px; height:96px; border-radius:50%; }
+  h1 { font-size: 3rem; margin: 0; color: var(--cream); text-shadow: 3px 4px 0 var(--ink); letter-spacing: .02em; }
+  .tag { display:inline-block; margin-top:8px; background: var(--ink); color: var(--cream); padding: 6px 14px; border-radius: 999px; font-weight: 700; font-size: .85rem; letter-spacing: .05em; }
+  .card { background: var(--cream); border-radius: 18px; padding: 24px; margin-top: 28px; box-shadow: 5px 6px 0 rgba(31,42,55,.25); line-height: 1.6; }
+  .card h2 { margin-top: 0; }
+  a { color: #0B6FB8; }
+  .btn { display:inline-block; background: var(--sun); color: var(--ink); font-weight: 800; padding: 12px 20px; border-radius: 12px; text-decoration: none; box-shadow: 3px 4px 0 var(--ink); }
+  footer { margin-top: 32px; font-size: .9rem; }
+  footer a { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.png" alt="Penny Pop logo: a gold coin with a P">
+    <div>
+      <h1>PENNY POP</h1>
+      <span class="tag">MONEY, EXPLAINED SIMPLY</span>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>What this is</h2>
+    <p>Penny Pop is a YouTube channel of short, bright animations about money: compound interest, credit cards,
+      index funds, options, mortgages, taxes and retirement. <strong>Money in a Minute</strong> explains one idea in
+      under sixty seconds; the deep dives take a whole topic from start to finish.</p>
+    <p>Every number on screen is calculated from the assumptions stated in each video's description. The videos are
+      education, not financial advice.</p>
+    <p><a class="btn" href="https://www.youtube.com/channel/UCvZGWJMfj-BL1nopl61xgOQ">Watch on YouTube</a></p>
+  </section>
+
+  <section class="card">
+    <h2>The Penny Pop uploader</h2>
+    <p>Penny Pop uses a small private tool, signed in with Google, to upload its own finished videos, captions and
+      thumbnails to its own YouTube channel through the YouTube Data API. It is used only by the channel's owner and
+      is not offered to anyone else. How it handles data is set out in the
+      <a href="privacy.html">privacy policy</a>.</p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> &middot;
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+  </footer>
+</main>
+</body>
+</html>
